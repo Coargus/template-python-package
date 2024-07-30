@@ -2,12 +2,16 @@
 
 # <<< YOUR PROJECT SPECIFIC IGNORES <<< #
 
+# Hydra Config and Dev
+outputs/
+_dev/
+.hydra/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 .DS_Store
-.hydra
 
 # C extensions
 *.so
